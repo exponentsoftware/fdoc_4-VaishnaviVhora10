@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.topdiv{
+background-image: url("./images/image1.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 30rem;
+opacity: 0.8;
+color: antiquewhite;
+font-size: 1.3rem;
+padding-top: 1.5rem;
+padding-left: 1.5rem;
+}
+
+.navcontainer{
+display: flex;
+}
+
+.navbar{
+    list-style: none;
+    padding-left: 48rem;
+}
+
+.navbar ui{
+    display: flex;
+    }
+
+.navbar ui li{
+    justify-content: space-between;
+    margin-right: 5rem;
+}
+
+.centerbox{
+    padding-top: 150px;
+    margin-left: 45%;   
+}
+
+h3{
+    margin-left: 50%;
+    margin-top: 70px;
+}
+.aboutme{
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.links{
+   margin-top: 20px;
+   margin-left: 50%;
+   font-size: 40px;
+   justify-content: space-evenly;
+}
+
+.projects{
+    margin-top: 100px;
+    font-weight: bold;
+    font-size: 19px;
+    background-color: blue;
+}
