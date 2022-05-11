@@ -36,31 +36,174 @@ display: flex;
 
 .centerbox{
     padding-top: 150px;
-    margin-left: 45%;   
+   text-align: center; 
 }
 
-h3{
-    margin-left: 50%;
-    margin-top: 70px;
-}
 .aboutme{
     padding-left: 200px;
     padding-right:200px;
     padding-top: 50px;
-    justify-content: center;
     text-align: center;
 }
 
+p{
+    margin-top: 30px;
+}
+
 .links{
-   margin-top: 20px;
-   margin-left: 50%;
+   margin-top: 30px;
+   margin-left: 45%;
    font-size: 40px;
+   justify-content: center;
    justify-content: space-evenly;
 }
 
 .projects{
     margin-top: 100px;
-    font-weight: bold;
-    font-size: 19px;
+    padding-left: 200px;
+    padding-right:200px;
+    padding-top: 50px;
     background-color: blue;
+    text-align: center;
+    height: 30rem;
+    }
+
+.projectcontainer{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 100px;
+justify-content: space-between;
+    }
+
+    .project1{
+        background-color: azure;
+        height: 200px;
+        width: 350px;
+        padding-top:20px;
+    }
+
+    .project2{
+        background-color: azure;
+        height: 200px;
+        width: 350px;
+        padding-top:20px;
+    }
+
+    .project3{
+        background-color: azure;
+        height: 200px;
+        width: 350px;
+        padding-top:20px;
+    }
+
+  .projects button{
+      margin-top: 30px;
+      height: 30px;
+      width: 110px;
+      border-radius: 10px;
+      cursor: pointer;
+      background-color: rgb(88, 88, 240);
+  }
+
+  .speciality{
+       margin-top: 50px;
+      text-align: center;
+      margin-bottom: 0px;
+  }
+
+  .specialitycontainer{
+    margin-top: 50px;  
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px ;
+    padding-left: 110px;
+
+  }
+
+  .special{
+    height: 100px;
+    width: 250px;
+    padding-top:20px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 4rem;
+  }
+ 
+  .logo{
+      height: 50px;
+      width:50px;
+  }
+
+  .menu {
+    padding-left: 15px;
+    padding-top: 5px;
+    padding-right: 15px;
+    height: 30px;
+}
+
+li {
+    list-style: none;
+}
+
+/* Container for skill bars */
+.container {
+    width: 50%;
+    background-color: #ddd;
+    border-radius: 10px;
+}
+
+.graph {
+    margin-left: 300px;
+    text-align: center;
+}
+
+.skills {
+    /* text-align: right; Right-align text */
+    background-color: #808080;
+    color: white; /* White text color */
+    text-align: center;
+}
+
+.html {
+    width: 90%;
+    background-color: #04aa6d;
+    border-radius: 5px;
+} /* Green */
+.css {
+    width: 80%;
+    background-color: #2196f3;
+    border-radius: 5px;
+} /* Blue */
+.js {
+    width: 65%;
+    background-color: #f44336;
+    border-radius: 5px;
+} /* Red */
+.php {
+    width: 60%;
+    background-color: #808080;
+    border-radius: 5px;
+} /* Dark Grey */
+
+p{
+    text-align: justify;
+}
+
+.experience {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-around;
+    margin: 30px 60px 60px 30px;
+}
+
+.pageFour {
+    background-color: #2196f3;
+    padding: 50px;
+}
+
+.centerAlign { 
+    padding-top: 50px;
+    text-align: center;
 }
